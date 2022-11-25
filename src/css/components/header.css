@@ -1,5 +1,17 @@
-body {
-  overflow-x: hidden;
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+.name {
+  font-size: 24px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
 }
 
 nav {
@@ -9,22 +21,6 @@ nav {
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
   height: 8vh;
   justify-content: space-around;
-}
-
-.links {
-  color: #fff;
-  text-decoration: none;
-  transition: 0.3s;
-}
-
-.links:hover {
-  opacity: 0.7;
-}
-
-.name {
-  font-size: 24px;
-  letter-spacing: 4px;
-  text-transform: uppercase;
 }
 
 .mobile-menu {
