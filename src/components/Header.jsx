@@ -1,33 +1,53 @@
-import React from 'react';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 import '../css/components/header.css';
 
-class Header extends React.Component {
-  render() {
-    return (
-      <header>
-        <nav>
-          <Link class="links name" to="https://github.com/JVLENNY10">
-            João (Lenny) Victor
-          </Link>
+function Header() {
+  const [active, setActive] = useState(false);
 
-          <div class="mobile-menu">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-          </div>
+  const animateLinks = () => {
+    const navLinks = document.querySelectorAll('.nav-list li');
 
-          <ul class="nav-list">
-            <li><Link class="links" to="/bio">Bio</Link></li>
-            <li><Link class="links" to="/skills">Habilidades</Link></li>
-            <li><Link class="links" to="/projects">Projetos</Link></li>
-            <li><Link class="links" to="/contact">Contato</Link></li>
-          </ul>
-        </nav>
-      </header>
-    );
-  }
+    navLinks.forEach((link, index) => {
+      if (link.style.animation) {
+        link.style.animation = '';
+      } else {
+        link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.3}s`;
+      }
+    });
+  };
+
+  const handleClick = () => {
+    setActive(!active);
+    animateLinks();
+  };
+
+  return (
+    <header>
+      <nav>
+        <Link className="name" to="https://github.com/JVLENNY10">
+          João (Lenny) Victor
+        </Link>
+
+        <div
+          className={ active ? 'mobile-menu active' : 'mobile-menu' }
+          onClick={ handleClick }
+        >
+          <div className="line1"></div>
+          <div className="line2"></div>
+          <div className="line3"></div>
+        </div>
+
+        <ul className={ active ? 'nav-list active' : 'nav-list' }>
+          <li><Link to="/bio">Bio</Link></li>
+          <li><Link to="/skills">Habilidades</Link></li>
+          <li><Link to="/projects">Projetos</Link></li>
+          <li><Link to="/contact">Contato</Link></li>
+        </ul>
+      </nav>
+    </header>
+  );
 }
 
 export default Header;
