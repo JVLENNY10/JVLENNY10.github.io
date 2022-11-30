@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/app-toot-name/static/css/main.2c2f9ba5.css",
-    "main.js": "/app-toot-name/static/js/main.fe2ee545.js",
-    "index.html": "/app-toot-name/index.html",
-    "main.2c2f9ba5.css.map": "/app-toot-name/static/css/main.2c2f9ba5.css.map",
-    "main.fe2ee545.js.map": "/app-toot-name/static/js/main.fe2ee545.js.map"
+    "main.css": "/jvlenny10.github.io/static/css/main.2c2f9ba5.css",
+    "main.js": "/jvlenny10.github.io/static/js/main.fe2ee545.js",
+    "index.html": "/jvlenny10.github.io/index.html",
+    "main.2c2f9ba5.css.map": "/jvlenny10.github.io/static/css/main.2c2f9ba5.css.map",
+    "main.fe2ee545.js.map": "/jvlenny10.github.io/static/js/main.fe2ee545.js.map"
   },
   "entrypoints": [
     "static/css/main.2c2f9ba5.css",
