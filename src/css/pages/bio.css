@@ -1,0 +1,58 @@
+.bio-section {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 15vh auto;
+  justify-content: space-evenly;
+}
+
+.bio-section img {
+  border: 10px solid #23232e;
+  border-radius: 50px;
+  max-width: 70%;
+  width: 300px;
+}
+
+.bio-section article {
+  background-color: #23232e;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 110%;
+  letter-spacing: 3px;
+  padding: 30px;
+  width: 70%;
+}
+
+.bio-section article h1 {
+  font-size: 200%;
+}
+
+.bio-section article h2 {
+  margin-top: 20px;
+}
+
+.bio-section article p {
+  margin: 10px 0 0 10px;
+}
+
+.bio-section article ul {
+  margin: 10px 0 0 30px;
+}
+
+.bio-section article ul li {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 1300px) {
+  .bio-section {
+    margin: 3vh auto;
+  }
+
+  .bio-section article {
+    margin: 3vh auto 0;
+  }
+
+  .bio-section img {
+    margin: 0 auto;
+  }
+}
