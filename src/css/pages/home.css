@@ -1,0 +1,21 @@
+.home-section {
+  background-color: #23232e;
+  border-radius: 25px;
+  color: #fff;
+  font-size: 25px;
+  letter-spacing: 3px;
+  padding: 30px;
+  margin: 10vh auto;
+  max-width: 700px;
+  width: 70%;
+}
+
+.home-section article p {
+  margin: 20px 0;
+}
+
+.home-section a {
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-weight: bold;
+}
