@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 
+import '../css/pages/home.css';
 import Header from '../components/Header';
 
 function Home() {
@@ -7,7 +8,7 @@ function Home() {
     <>
       <Header />
 
-      <main>
+      <section className="home-section">
         <article>
           <h1>Seja bem vindo!</h1>
 
@@ -15,14 +16,12 @@ function Home() {
             Aqui você vai encontrar informações sobre mim,
             minhas habilidades e meus projetos.
           </p>
-
-          <p>
-            <Link to="/contact">
-              Entre em contato clicando aqui
-            </Link>
-          </p>
         </article>
-      </main>
+
+        <Link to="/contact">
+          Entre em contato clicando aqui
+        </Link>
+      </section>
     </>
   );
 }
