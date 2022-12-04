@@ -9,8 +9,8 @@ a:hover {
 }
 
 .name {
-  font-size: 24px;
-  letter-spacing: 4px;
+  font-size: 100%;
+  letter-spacing: 2px;
   text-transform: uppercase;
 }
 
@@ -18,14 +18,13 @@ nav {
   align-items: center;
   background-color: #23232e;
   display: flex;
-  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
   height: 8vh;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .mobile-menu {
-  display: none;
   cursor: pointer;
+  display: none;
 }
 
 .mobile-menu div {
@@ -72,7 +71,7 @@ nav {
     position: absolute;
     right: 0;
     top: 8vh;
-    transform: translateX(100%);
+    transform: translateX(100vw);
     transition: transform 0.3s ease-in;
     width: 50vw;
   }
