@@ -1,12 +1,18 @@
+.home-page {
+  align-items: center;
+  display: flex;
+  height: 85vh;
+}
+
 .home-section {
   background-color: #23232e;
-  border-radius: 25px;
+  border-radius: 50px;
   color: #fff;
   font-size: 25px;
   letter-spacing: 3px;
+  margin: 0 auto;
+  max-width: 505px;
   padding: 30px;
-  margin: 10vh auto;
-  max-width: 700px;
   width: 70%;
 }
 
@@ -16,6 +22,5 @@
 
 .home-section a {
   letter-spacing: 1px;
-  font-size: 20px;
   font-weight: bold;
 }

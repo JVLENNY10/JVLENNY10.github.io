@@ -1,8 +1,14 @@
+.skills-page {
+  align-items: center;
+  display: flex;
+  height: 85vh;
+}
+
 .skills-section {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin: 25vh auto;
+  width: 100vw;
 }
 
 .skills-section article {
@@ -13,6 +19,7 @@
   letter-spacing: 3px;
   max-width: 505px;
   padding: 30px;
+  /* height: 300px; */
   width: 70%;
 }
 
@@ -31,8 +38,12 @@
 }
 
 @media (max-width: 1129px) {
+  .skills-page {
+    height: 0%;
+  }
+
   .skills-section {
-    margin: 3vh;
+    margin: 5vh auto;
   }
 
   .skills-section .skills-article-back {

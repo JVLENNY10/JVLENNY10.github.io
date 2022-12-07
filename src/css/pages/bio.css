@@ -1,23 +1,29 @@
+.bio-page {
+  align-items: center;
+  display: flex;
+  height: 85vh;
+}
+
 .bio-section {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
-  margin: 15vh auto;
   justify-content: space-evenly;
+  width: 100vw;
 }
 
 .bio-section img {
   border: 10px solid #23232e;
   border-radius: 50px;
   max-width: 70%;
-  width: 300px;
+  width: 350px;
 }
 
 .bio-section article {
   background-color: #23232e;
   border-radius: 50px;
   color: #fff;
-  font-size: 110%;
+  font-size: 20px;
   letter-spacing: 3px;
   padding: 30px;
   width: 70%;
@@ -43,16 +49,23 @@
   margin-bottom: 10px;
 }
 
+@media (max-width: 339px) {
+  .bio-section article {
+    font-size: 15px;
+    letter-spacing: 2px;
+  }
+}
+
 @media (max-width: 1300px) {
+  .bio-page {
+    height: 0%;
+  }
+
   .bio-section {
-    margin: 3vh auto;
+    margin: 5vh auto;
   }
 
   .bio-section article {
-    margin: 3vh auto 0;
-  }
-
-  .bio-section img {
-    margin: 0 auto;
+    margin-top: 3vh;
   }
 }
