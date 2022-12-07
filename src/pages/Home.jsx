@@ -8,20 +8,22 @@ function Home() {
     <>
       <Header />
 
-      <section className="home-section">
-        <article>
-          <h1>Seja bem vindo!</h1>
+      <div className="home-page">
+        <section className="home-section">
+          <article>
+            <h1>Seja bem vindo!</h1>
 
-          <p>
-            Aqui você vai encontrar informações sobre mim,
-            minhas habilidades e meus projetos.
-          </p>
-        </article>
+            <p>
+              Aqui você vai encontrar informações sobre mim,
+              minhas habilidades e meus projetos.
+            </p>
+          </article>
 
-        <Link to="/contact">
-          Entre em contato clicando aqui
-        </Link>
-      </section>
+          <Link to="/contact">
+            Entre em contato clicando aqui
+          </Link>
+        </section>
+      </div>
     </>
   );
 }
