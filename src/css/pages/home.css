@@ -1,7 +1,7 @@
 .home-page {
   align-items: center;
   display: flex;
-  height: 85vh;
+  height: 84vh;
 }
 
 .home-section {
@@ -23,4 +23,16 @@
 .home-section a {
   letter-spacing: 1px;
   font-weight: bold;
+}
+
+@media (max-width: 339px) {
+  .home-section article {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1129px) {
+  .home-page {
+    height: 95vh;
+  }
 }
