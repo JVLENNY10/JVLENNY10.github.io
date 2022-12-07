@@ -1,0 +1,17 @@
+footer {
+  background-color: #23232e;
+  display: flex;
+  height: 8vh;
+}
+
+.social-networks {
+  margin: 0 auto;
+}
+
+.social-networks img {
+  width: 35px;
+}
+
+.instagram-link {
+  margin: 0 35px;
+}
