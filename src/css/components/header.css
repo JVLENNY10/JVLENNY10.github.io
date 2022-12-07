@@ -9,8 +9,8 @@ a:hover {
 }
 
 .name {
-  font-size: 100%;
-  letter-spacing: 2px;
+  font-size: 25px;
+  letter-spacing: 3px;
   text-transform: uppercase;
 }
 
@@ -55,6 +55,12 @@ nav {
 .nav-list li {
   letter-spacing: 3px;
   margin-left: 32px;
+}
+
+@media (max-width: 400px) {
+  .name {
+    font-size: 15px;
+  }
 }
 
 @media (max-width: 999px) {
