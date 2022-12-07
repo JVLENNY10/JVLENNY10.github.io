@@ -1,3 +1,4 @@
+import '../css/pages/skills.css';
 import Header from '../components/Header';
 
 function Skills() {
@@ -6,7 +7,7 @@ function Skills() {
       <Header />
 
       <section className="skills-section">
-        <article>
+        <article className="skills-article-front">
           <h2>Front-End</h2>
           <ul>
             <li>HTML5;</li>
@@ -17,7 +18,7 @@ function Skills() {
           </ul>
         </article>
 
-        <article>
+        <article className="skills-article-back">
           <h2>Back-End</h2>
           <ul>
             <li>Docker;</li>
