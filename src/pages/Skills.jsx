@@ -1,4 +1,5 @@
 import '../css/pages/skills.css';
+import Footer from '../components/Footer';
 import Header from '../components/Header';
 
 function Skills() {
@@ -31,6 +32,8 @@ function Skills() {
           </article>
         </section>
       </div>
+
+      <Footer />
     </>
   );
 }

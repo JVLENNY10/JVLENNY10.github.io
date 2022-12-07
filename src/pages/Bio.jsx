@@ -1,4 +1,5 @@
 import '../css/pages/bio.css';
+import Footer from '../components/Footer';
 import Header from '../components/Header';
 import fotoDeJoao from '../images/foto-de-joao.jpg';
 
@@ -47,6 +48,8 @@ function Bio() {
           </article>
         </section>
       </div>
+
+      <Footer />
     </>
   );
 }
