@@ -26,7 +26,7 @@ function Header() {
   return (
     <header>
       <nav>
-        <Link className="name" to="https://github.com/JVLENNY10">
+        <Link className="name" to="/">
           João (Lenny) Victor
         </Link>
 
