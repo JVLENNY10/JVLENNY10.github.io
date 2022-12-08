@@ -1,11 +1,21 @@
 footer {
   background-color: #23232e;
   display: flex;
-  height: 8vh;
+  min-height: 8vh;
+}
+
+.div-footer {
+  align-items: center;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  width: 25vw;
 }
 
 .social-networks {
-  margin: 0 auto;
+  display: flex;
 }
 
 .social-networks img {
@@ -13,5 +23,25 @@ footer {
 }
 
 .instagram-link {
-  margin: 0 35px;
+  margin: 0 20px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  min-height: 8vh;
+  text-align: center;
+}
+
+@media (max-width: 1300px) {
+  .div-footer {
+    flex-direction: column;
+    margin-bottom: 5px;
+    width: 100vw;
+  }
+
+  .contact {
+    font-size: 15px;
+  }
 }
