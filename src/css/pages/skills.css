@@ -1,7 +1,7 @@
 .skills-page {
   align-items: center;
   display: flex;
-  height: 84vh;
+  min-height: 84vh;
 }
 
 .skills-section {
@@ -19,7 +19,6 @@
   letter-spacing: 3px;
   max-width: 505px;
   padding: 30px;
-  /* height: 300px; */
   width: 70%;
 }
 

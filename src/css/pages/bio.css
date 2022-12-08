@@ -1,7 +1,7 @@
 .bio-page {
   align-items: center;
   display: flex;
-  height: 84vh;
+  min-height: 84vh;
 }
 
 .bio-section {
