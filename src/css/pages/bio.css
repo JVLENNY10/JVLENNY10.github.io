@@ -57,10 +57,6 @@
 }
 
 @media (max-width: 1300px) {
-  .bio-page {
-    height: 0%;
-  }
-
   .bio-section {
     margin: 5vh auto;
   }

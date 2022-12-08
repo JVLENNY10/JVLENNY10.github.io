@@ -38,10 +38,6 @@
 }
 
 @media (max-width: 1129px) {
-  .skills-page {
-    height: 0%;
-  }
-
   .skills-section {
     margin: 5vh auto;
   }
