@@ -43,7 +43,6 @@ function Header() {
           <li><Link to="/bio">Bio</Link></li>
           <li><Link to="/skills">Habilidades</Link></li>
           <li><Link to="/projects">Projetos</Link></li>
-          <li><Link to="/contact">Contato</Link></li>
         </ul>
       </nav>
     </header>
