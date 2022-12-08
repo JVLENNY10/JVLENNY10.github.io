@@ -20,8 +20,8 @@ function Home() {
             </p>
           </article>
 
-          <Link to="/contact">
-            Entre em contato clicando aqui
+          <Link to="/projects">
+            Veja os projetos clicando aqui
           </Link>
         </section>
       </div>
