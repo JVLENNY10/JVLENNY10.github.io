@@ -1,20 +1,4 @@
-a {
-  color: #fff;
-  text-decoration: none;
-  transition: 0.3s;
-}
-
-a:hover {
-  opacity: 0.7;
-}
-
-.name {
-  font-size: 25px;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-}
-
-nav {
+.nav-header {
   align-items: center;
   background-color: #23232e;
   display: flex;
@@ -22,12 +6,27 @@ nav {
   justify-content: space-evenly;
 }
 
+.links-header {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.links-header:hover {
+  opacity: 0.7;
+}
+
+.name {
+  font-size: 25px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
 .mobile-menu {
-  cursor: pointer;
   display: none;
 }
 
-.mobile-menu div {
+.mobile-menu .lines {
   background-color: #fff;
   height: 2px;
   margin: 8px;
@@ -47,12 +46,12 @@ nav {
   transform: rotate(45deg) translate(-5px, -7px);
 }
 
-.nav-list {
+.link-list {
   display: flex;
   list-style: none;
 }
 
-.nav-list li {
+.link-list li {
   letter-spacing: 3px;
   margin-left: 32px;
 }
@@ -68,7 +67,7 @@ nav {
     display: block;
   }
 
-  .nav-list {
+  .link-list {
     align-items: center;
     background-color: #23232e;
     flex-direction: column;
@@ -82,12 +81,12 @@ nav {
     width: 50vw;
   }
 
-  .nav-list li {
+  .link-list li {
     margin-left: 0;
     opacity: 0;
   }
 
-  .nav-list.active {
+  .link-list.active {
     transform: translateX(0);
   }
 }
