@@ -1,6 +1,5 @@
 .bio-section {
   align-items: center;
-  color: #fff;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -43,7 +42,7 @@
   margin-bottom: 10px;
 }
 
-@media (max-width: 339px) {
+@media (max-width: 340px) {
   .bio-section article {
     font-size: 15px;
     letter-spacing: 2px;
@@ -51,11 +50,11 @@
 }
 
 @media (max-width: 1300px) {
-  .bio-section {
-    margin: 5vh auto;
+  .bio-section img {
+    margin-top: 5vh;
   }
 
   .bio-section article {
-    margin-top: 3vh;
+    margin: 3vh 0 5vh;
   }
 }
