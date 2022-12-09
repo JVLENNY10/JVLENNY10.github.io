@@ -15,7 +15,13 @@ footer {
 }
 
 .social-networks img {
+  transition: 0.8s;
   width: 50px;
+}
+
+.social-networks img:hover {
+  opacity: 0.5;
+  transform: rotate(360deg);
 }
 
 .contact {
