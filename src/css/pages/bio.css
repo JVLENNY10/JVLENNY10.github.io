@@ -1,15 +1,10 @@
-.bio-page {
-  align-items: center;
-  display: flex;
-  min-height: 84vh;
-}
-
 .bio-section {
   align-items: center;
+  color: #fff;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  width: 100vw;
+  min-height: 84vh;
 }
 
 .bio-section img {
@@ -22,7 +17,6 @@
 .bio-section article {
   background-color: #23232e;
   border-radius: 50px;
-  color: #fff;
   font-size: 20px;
   letter-spacing: 3px;
   padding: 30px;
@@ -30,7 +24,7 @@
 }
 
 .bio-section article h1 {
-  font-size: 200%;
+  font-size: 40px;
 }
 
 .bio-section article h2 {
