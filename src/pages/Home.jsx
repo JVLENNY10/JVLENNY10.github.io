@@ -9,8 +9,8 @@ function Home() {
     <>
       <Header />
 
-      <div className="home-page">
-        <section className="home-section">
+      <section className="home-section">
+        <div className="home-info-container">
           <article>
             <h1>Seja bem vindo!</h1>
 
@@ -23,8 +23,8 @@ function Home() {
           <Link to="/projects">
             Veja os projetos clicando aqui
           </Link>
-        </section>
-      </div>
+        </div>
+      </section>
 
       <Footer />
     </>
