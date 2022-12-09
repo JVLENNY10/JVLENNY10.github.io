@@ -10,7 +10,7 @@ function Projects() {
       <Header />
 
       <section className="projects-section">
-        <div className="projects">
+        <div className="projects-container">
           <h1>Front-End</h1>
 
           <ul>
@@ -36,7 +36,7 @@ function Projects() {
           </ul>
         </div>
 
-        <div className="projects">
+        <div className="projects-container">
           <h1>Back-End</h1>
 
           <ul>
