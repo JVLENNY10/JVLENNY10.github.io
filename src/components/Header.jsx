@@ -7,9 +7,9 @@ function Header() {
   const [active, setActive] = useState(false);
 
   const animateLinks = () => {
-    const navLinks = document.querySelectorAll('.nav-list li');
+    const linkList = document.querySelectorAll('.link-list li');
 
-    navLinks.forEach((link, index) => {
+    linkList.forEach((link, index) => {
       if (link.style.animation) {
         link.style.animation = '';
       } else {
@@ -25,8 +25,8 @@ function Header() {
 
   return (
     <header>
-      <nav>
-        <Link className="name" to="/">
+      <nav className="nav-header">
+        <Link className="links-header name" to="/">
           João (Lenny) Victor
         </Link>
 
@@ -34,15 +34,15 @@ function Header() {
           className={ active ? 'mobile-menu active' : 'mobile-menu' }
           onClick={ handleClick }
         >
-          <div className="line1"></div>
-          <div className="line2"></div>
-          <div className="line3"></div>
+          <div className="line1 lines"></div>
+          <div className="line2 lines"></div>
+          <div className="line3 lines"></div>
         </div>
 
-        <ul className={ active ? 'nav-list active' : 'nav-list' }>
-          <li><Link to="/bio">Bio</Link></li>
-          <li><Link to="/skills">Habilidades</Link></li>
-          <li><Link to="/projects">Projetos</Link></li>
+        <ul className={ active ? 'link-list active' : 'link-list' }>
+          <li><Link className="links-header" to="/bio">Bio</Link></li>
+          <li><Link className="links-header" to="/skills">Habilidades</Link></li>
+          <li><Link className="links-header" to="/projects">Projetos</Link></li>
         </ul>
       </nav>
     </header>
