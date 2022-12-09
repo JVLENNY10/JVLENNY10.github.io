@@ -1,29 +1,21 @@
 footer {
-  background-color: #23232e;
-  display: flex;
-  min-height: 8vh;
-}
-
-.div-footer {
   align-items: center;
-  color: #fff;
+  background-color: #23232e;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin: 0 auto;
-  width: 25vw;
+  min-height: 8vh;
 }
 
 .social-networks {
   display: flex;
+  justify-content: space-between;
+  width: 200px;
 }
 
 .social-networks img {
-  width: 35px;
-}
-
-.instagram-link {
-  margin: 0 20px;
+  width: 50px;
 }
 
 .contact {
@@ -35,13 +27,11 @@ footer {
 }
 
 @media (max-width: 1300px) {
-  .div-footer {
-    flex-direction: column;
-    margin-bottom: 5px;
-    width: 100vw;
+  footer {
+    padding: 10px 0;
   }
 
   .contact {
-    font-size: 15px;
+    margin-top: 5px;
   }
 }
